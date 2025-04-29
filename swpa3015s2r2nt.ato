@@ -1,0 +1,11 @@
+component SWPA3015S2R2NT:
+    """Sunlord_SWPA3015S2R2NT component"""
+    lcsc_id = "C19734"
+    manufacturer = "Sunlord"
+    mpn = "SWPA3015S2R2NT"
+    datasheet_url = "https://www.lcsc.com/datasheet/lcsc_datasheet_2310251551_Sunlord-SWPA3015S2R2NT_C19734.pdf"
+    designator_prefix = "L"
+
+    # pins
+    signal p1 ~ pin 1
+    signal p2 ~ pin 2

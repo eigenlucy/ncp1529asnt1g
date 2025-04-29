@@ -9,15 +9,13 @@ builds:
   default:
     entry: main.ato:App
 
-# This metadata is only required for publishing
-# Uncomment it and fill out the fields to publish your package
-# package:
-#   identifier: # fill me!/ncp1529asnt1g
-#   repository: # fill me!
-#   version: "0.1.0"  # recommended first version
-#   authors:
-#     - name: lucy moglia
-#       email: eigenlucy@proton.me
-#   summary: # fill me!
-#   license: GNU General Public License v3
-#   homepage: # fill me!
+package:
+  identifier: eigenlucy/ncp1529asnt1g
+  repository: https://github.com/eigenlucy/ncp1529asnt1g
+  version: "0.1.0"  # recommended first version
+  authors:
+    - name: lucy moglia
+      email: eigenlucy@proton.me
+  summary: 900mV-3.9Vout DC-DC Converter
+  license: GNU General Public License v3
+  homepage: https://github.com/eigenlucy/ncp1529asnt1g
