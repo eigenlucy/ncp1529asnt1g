@@ -29,7 +29,7 @@ module App:
     ################
     Vfb = 600mV
 
-    INPUT_VOLTAGE: voltag
+    INPUT_VOLTAGE: voltage
     VIN_MIN = 2.7V
     VIN_MAX = 5.5V
     assert INPUT_VOLTAGE < VIN_MAX; assert INPUT_VOLTAGE > VIN_MIN
