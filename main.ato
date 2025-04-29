@@ -2,7 +2,7 @@ import Capacitor, Resistor, ElectricPower, Inductor
 from "ncp1529asnt1g.ato" import NCP1529ASNT1G
 from "swpa3015s2r2nt.ato" import SWPA3015S2R2NT
 
-module App:
+module Regulator:
     ic = new NCP1529ASNT1G
     L = new SWPA3015S2R2NT #2.2uH, saturation current >= 1.6A for peak inductor current rating
 
