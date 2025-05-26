@@ -36,7 +36,7 @@ module App:
     ldo.OUTPUT_VOLTAGE = 3.3V +/- 5%
     ldo.Vin ~ power_batt
     ldo.Vout ~ power_3V3
-    # ldo.EN ~ uc.gpioX # Connect EN pin (active high)
+    # ldo.ic.EN ~ uc.gpioX # Connect EN pin (active high)
 ```
 
 ## TODO
